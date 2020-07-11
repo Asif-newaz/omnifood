@@ -3,6 +3,7 @@
 /*---------------------------*/
 /* BASIC SETUP */
 /*---------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +29,7 @@ html {
 /*---------------------------*/
 /* REUSABLE COMPONENTS */
 /*---------------------------*/
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -45,6 +47,7 @@ section {
 /*---------------------------*/
 /* HEADING */
 /*---------------------------*/
+
 h1,
 h2,
 h3 {
@@ -87,6 +90,7 @@ h2:after {
 /*---------------------------*/
 /* PARAGRAPHS */
 /*---------------------------*/
+
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -102,6 +106,7 @@ h2:after {
 /*---------------------------*/
 /* ICONS */
 /*---------------------------*/
+
 .icon-big {
     font-size: 280%;
     font-weight: 300;
@@ -128,6 +133,7 @@ h2:after {
 /*---------------------------*/
 /* LINKS */
 /*---------------------------*/
+
 a:link,
 a:visited {
     color: #e67e22;
@@ -148,6 +154,7 @@ a:active {
 /*---------------------------*/
 /* BUTTONS */
 /*---------------------------*/
+
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -193,6 +200,7 @@ a:active {
 /*---------------------------*/
 /* HEADER */
 /*---------------------------*/
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
@@ -245,6 +253,7 @@ header {
 /*---------------------------*/
 /* FEATURES */
 /*---------------------------*/
+
 .section-features .long-copy {
     margin-bottom: 30px;
     text-align: center;
@@ -254,6 +263,7 @@ header {
 /*---------------------------*/
 /* MEALS */
 /*---------------------------*/
+
 .section-meals {
     padding: 0;
 }
@@ -292,6 +302,7 @@ header {
 /*---------------------------*/
 /* HOW IT WORKS */
 /*---------------------------*/
+
 .section-steps {
     background-color: #f4f4f4;
 }
@@ -367,6 +378,7 @@ header {
 /*---------------------------*/
 /* TESTIMONIALS */
 /*---------------------------*/
+
 .section-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
     background-size: cover;
