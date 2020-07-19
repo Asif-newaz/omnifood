@@ -3,7 +3,7 @@ $(document).ready(function(){
     /* For the sticky navigation */
     
     /*
-    I used this code for making above sticky navigation
+    I used this code for making sticky navigation
     "Got this example from http://imakewebthings.com/waypoints/"
     
     var waypoints = $('#handler-first').waypoint(function(direction) {
@@ -86,7 +86,33 @@ $(document).ready(function(){
         }
       });
     
-
+    
+    /* Animations on scroll */
+    
+    $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+    
+    $('.js--wp-2').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animated fadeInUp');
+    }, {
+        offset: '50%'
+    });
+    
+    $('.js--wp-3').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+    
+    $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated pulse');
+    }, {
+        offset: '50%'
+    });
+    
 });
 
 
